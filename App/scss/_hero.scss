@@ -1,0 +1,19 @@
+.hero {
+  background-image: url("/images/HP\ Hero.png");
+  height: 895px;
+  padding-block-end: 25px;
+  padding-block-start: 25px;
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+  h1 {
+    padding-block-start: 72px;
+    font-size: 90px;
+    color: whitesmoke;
+  }
+  p {
+    max-width: 68ch;
+    font-size: 21px;
+    line-height: 1.5;
+    color: whitesmoke;
+  }
+}

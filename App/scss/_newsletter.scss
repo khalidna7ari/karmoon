@@ -1,0 +1,26 @@
+.newsletter {
+  padding-block: 30px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  position: relative;
+  h5 {
+    font-size: 100px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px #000000, 0 0 1px #000000, 0 0 1px #000000,
+      0 0 1px #000000;
+    color: white;
+
+    will-change: transform;
+    animation: marquee 10s linear infinite;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-180%);
+  }
+}

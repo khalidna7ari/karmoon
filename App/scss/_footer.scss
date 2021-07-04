@@ -1,0 +1,20 @@
+footer {
+  padding-block: 1.5rem;
+  margin-inline: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  text-transform: uppercase;
+  small {
+    font-size: inherit;
+  }
+  img {
+    padding: 10px 12px;
+    border: 1px solid black;
+  }
+  ul {
+    display: flex;
+    gap: 2rem;
+  }
+}
